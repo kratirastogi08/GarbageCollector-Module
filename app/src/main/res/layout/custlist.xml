@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:textColor="#060606"
+        android:textSize="18sp"
+        app:fontFamily="@font/baloo_da"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#060606"
+        android:textSize="15sp"
+        app:fontFamily="@font/baloo_da"
+        android:layout_marginLeft="10dp"
+
+
+        />
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TableRow>
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+           android:text="PaymentStatus:"
+            android:textColor="#060606"
+            android:textSize="13sp"
+            app:fontFamily="@font/baloo_da"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp">
+
+
+        </TextView>
+        <TextView
+            android:id="@+id/pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="2dp"
+            android:textColor="#060606"
+            android:textSize="15sp"
+
+            app:fontFamily="@font/baloo_da"
+            />
+    </TableRow>
+</TableLayout>
+
+
+
+</LinearLayout>
